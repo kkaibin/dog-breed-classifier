@@ -15,7 +15,7 @@
 ## Introduction
 
 ### Objective:
-  We would like to train a model using CNN that categorizes dogs, humans, or any species into their similiar dog breeds. 
+ To train a model using CNN that categorizes dogs, humans, or any species into their similar dog breeds. 
 
 ### Overview:
   There is a detector that detects whether the input picture contains a dog or human. The human detector employs one of OpenCV's pre-trained face detector, [Haar feature-based cascade classifiers](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html), while the dog detector employs a pre-trained ResNet-50 model (weights trained on ImageNet).\
