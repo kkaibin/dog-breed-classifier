@@ -6,9 +6,9 @@
     1. [Requirements](#Requirements)
     2. [Instructions](#Instructions)
 3. [Results](#Results)
-    1. [Dog and human detector accuracy](#Dog and human detector accuracy)
-    2. [Data Augmentation](#Data Augmentation)
-    3. [Model Accuracy](#Model Accuracy)
+    1. [Dog and human detector accuracy](#Dogandhumandetectoraccuracy)
+    2. [Data augmentation](#DataAugmentation)
+    3. [Model accuracy](#ModelAccuracy)
 4. [Acknowledgement](#Acknowledgement)
 
 <a name="Introduction"></a>
@@ -44,30 +44,30 @@ Libraries: SKlearn, keras, numpy, glob, cv2, random, tqdm, PIL, matplotlib.
 <a name="Results"></a>
 ## Results
 
-<a name="Dog and human detector accuracy"></a>
+<a name="Dogandhumandetectoraccuracy"></a>
 ### 1. Dog and human detector accuracy
     1. 100 human photos:
         Humans: 0.97
         Dogs: 0.0
         Both are detected: 0.02
         Unknown species 0.01
-        \
+        
     2. 100 dog photos:
         Humans: 0.0
         Dogs: 0.88
         Both are detected: 0.12
         Unknown species 0.0
  
-<a name="Data Augmentation"></a>
-### 2. Data Augmentation
+<a name="DataAugmentation"></a>
+### 2. Data augmentation
 
 <img src="image/data_augmentation.png" height="180" alt="data_augmentation"/>
 
-<a name="Model Accuracy"></a>
-### 3. Model Accuracy
+<a name="ModelAccuracy"></a>
+### 3. Model accuracy
 
     1. Model 1: from scratch
-       Test accuracy:  10.4066985645933 % (epoch: 20, batch size: 20)\
+       Test accuracy:  10.4066985645933 % (epoch: 20, batch size: 20)
     2. Model 2: VGG-16 Model:
        Test accuracy:  74.76076555023923 % (epoch: 20, batch size: 20)
        
