@@ -37,7 +37,7 @@ Libraries: SKlearn, keras, numpy, glob, cv2, random, tqdm, PIL, matplotlib.
 ### 2. Instructions
 
   1.	Download the dataset of classified [dog images](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip) and the dataset of [humans](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).\
-  2.  Download all the documents from the file.
+  2.  Download the pretrained model, [Haar feature-based cascade classifiers](https://github.com/opencv/opencv/tree/master/data/haarcascades), and the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz).\
   3.  The code can run using google colab. (File paths need to be modified.)\
 
 <a name="Results"></a>
