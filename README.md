@@ -6,8 +6,9 @@
     1. [Requirements](#Requirements)
     2. [Instructions](#Instructions)
 3. [Results](#Results)
-    1. [Model Accuracy](#ModelAccuracy)
-    2. [Classification](#Classification)
+    1. [Dog and human detector accuracy](#Dog and human detector accuracy)
+    2. [Data Augmentation](#Data Augmentation)
+    3. [Model Accuracy](#Model Accuracy)
 4. [Acknowledgement](#Acknowledgement)
 
 <a name="Introduction"></a>
@@ -43,12 +44,51 @@ Libraries: SKlearn, keras, numpy, glob, cv2, random, tqdm, PIL, matplotlib.
 <a name="Results"></a>
 ## Results
 
-<a name="ModelAccuracy"></a>
-### 1. Model Accuracy
+<a name="Dog and human detector accuracy"></a>
+### 1. Dog and human detector accuracy
+    1. 100 human photos:
+        Humans: 0.97
+        Dogs: 0.0
+        Both are detected: 0.02
+        Unknown species 0.01
+        \
+    2. 100 dog photos:
+        Humans: 0.0
+        Dogs: 0.88
+        Both are detected: 0.12
+        Unknown species 0.0
+ 
+<a name="Data Augmentation"></a>
+### 2. Data Augmentation
 
+<img src="image/data_augmentation.png" height="180" alt="data_augmentation"/>
 
-<a name="Classification"></a>
-### 2. Classification
+<a name="Model Accuracy"></a>
+### 3. Model Accuracy
+
+    1. Model 1: from scratch
+       Test accuracy:  10.4066985645933 % (epoch: 20, batch size: 20)\
+    2. Model 2: VGG-16 Model:
+       Test accuracy:  74.76076555023923 % (epoch: 20, batch size: 20)
+       
+
+<img src="image/bulldog_result.png" height="200" alt="bulldog_result"/> \
+Model 1: wrong, Model 2: correct
+
+<img src="image/chihuahua_result.png" height="200" alt="chihuahua_result"/> \
+Model 1: wrong, Model 2: correct
+
+<img src="image/poodle_result.png" height="200" alt="poodle_result"/> \
+Model 1: wrong, Model 2: correct
+
+<img src="image/smooth_fox_terrier_result.png" height="200" alt="smooth_fox_terrier_result"/> \
+Model 1: wrong, Model 2: correct
+
+<img src="image/australian_shepherd_result.png" height="200" alt="australian_shepherd_result"/> \
+Model 1: wrong, Model 2: wrong, should be an Australian Shepherd\
+
+<img src="image/human_result.png" height="200" alt="human_result"/>\
+Human detected! Breed classified!
 
 
 <a name="Acknowledgement"></a>
