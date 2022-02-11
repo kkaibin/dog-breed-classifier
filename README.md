@@ -47,16 +47,16 @@ Libraries: SKlearn, keras, numpy, glob, cv2, random, tqdm, PIL, matplotlib.
 <a name="Dogandhumandetectoraccuracy"></a>
 ### 1. Dog and human detector accuracy
     1. 100 human photos:
-        Humans: 0.97
-        Dogs: 0.0
-        Both are detected: 0.02
-        Unknown species 0.01
+        Humans: 97 photos
+        Dogs: 0 photos
+        Both are detected: 2 photos
+        Unknown species 1 photos
         
     2. 100 dog photos:
-        Humans: 0.0
-        Dogs: 0.88
-        Both are detected: 0.12
-        Unknown species 0.0
+        Humans: 0 photos
+        Dogs: 88 photos
+        Both are detected: 12 photos
+        Unknown species 0 photos
  
 <a name="DataAugmentation"></a>
 ### 2. Data augmentation
